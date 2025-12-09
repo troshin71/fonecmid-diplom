@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>

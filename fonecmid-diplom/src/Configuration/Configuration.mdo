@@ -1219,6 +1219,7 @@
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.ВКМ_ОбслуживаниеКлиента</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1379,5 +1380,6 @@
   <accumulationRegisters>AccumulationRegister.ОбработкаЗаказов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
