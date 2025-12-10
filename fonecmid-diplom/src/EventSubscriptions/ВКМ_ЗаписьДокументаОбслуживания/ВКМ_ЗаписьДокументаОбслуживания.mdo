@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f12bf96-1a68-476f-a285-dc08d3b00739">
+  <name>ВКМ_ЗаписьДокументаОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись документа обслуживания</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ВКМ_ОбслуживаниеКлиента</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВКМ_ОбслуживаниеКлиентовСервер.ВКМ_ЗаписьДокументаОбслуживанияПриЗаписи</handler>
+</mdclass:EventSubscription>
