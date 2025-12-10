@@ -89,7 +89,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_ДобавленныеОбъекты</name>
+		<name>Subsystem.ВКМ_РаботаСКлиентами</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
