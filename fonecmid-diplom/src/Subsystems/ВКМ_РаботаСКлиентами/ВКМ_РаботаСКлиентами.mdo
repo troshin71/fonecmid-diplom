@@ -3,7 +3,7 @@
   <name>ВКМ_РаботаСКлиентами</name>
   <synonym>
     <key>ru</key>
-    <value>Добавленные объекты</value>
+    <value>Работа с клиентами</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
