@@ -37,7 +37,7 @@
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <forms uuid="56c050da-e803-443c-aaf3-41ee63c52eac">
+  <forms uuid="fc4e8708-deea-47c3-b394-9a4e2d816667">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
