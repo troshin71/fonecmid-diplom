@@ -41,8 +41,8 @@
       </code>
     </items>
     <items id="9deb8d7b-68cf-450e-82d1-461e1442105d">
-      <name>ФиксированнаяПремия</name>
-      <description>Фиксированная премия</description>
+      <name>Премия</name>
+      <description>Премия</description>
       <code xsi:type="core:StringValue">
         <value>Премия</value>
       </code>
