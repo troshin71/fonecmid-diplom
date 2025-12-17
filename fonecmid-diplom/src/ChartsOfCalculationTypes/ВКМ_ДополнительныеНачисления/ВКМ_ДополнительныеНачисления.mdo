@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCalculationTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67d8c741-4edf-45fc-9240-f9e0a6bd003a">
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67d8c741-4edf-45fc-9240-f9e0a6bd003a">
   <producedTypes>
     <objectType typeId="b7d32dd5-2115-4bb0-9408-f365e56a1821" valueTypeId="376e53fb-1e40-41a3-a9e8-54058a3074d0"/>
     <refType typeId="7400437e-07c2-41d6-8b26-b2c4671129bb" valueTypeId="e158fd7e-b97b-4792-bd2a-9fdbba2079d0"/>
@@ -33,4 +33,20 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <predefined>
+    <items id="dc9b000a-be9a-4d7f-9d67-f39cd1d5f7ab">
+      <name>Процент</name>
+      <description>Процент</description>
+      <code xsi:type="core:StringValue">
+        <value>Процент</value>
+      </code>
+    </items>
+    <items id="9deb8d7b-68cf-450e-82d1-461e1442105d">
+      <name>ФиксированнаяПремия</name>
+      <description>Фиксированная премия</description>
+      <code xsi:type="core:StringValue">
+        <value>Премия</value>
+      </code>
+    </items>
+  </predefined>
 </mdclass:ChartOfCalculationTypes>
