@@ -33,13 +33,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <predefined>
-    <items id="dc9b000a-be9a-4d7f-9d67-f39cd1d5f7ab">
-      <name>Процент</name>
-      <description>Процент</description>
-      <code xsi:type="core:StringValue">
-        <value>Процент</value>
-      </code>
-    </items>
     <items id="9deb8d7b-68cf-450e-82d1-461e1442105d">
       <name>Премия</name>
       <description>Премия</description>
