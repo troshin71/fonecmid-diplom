@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc85afa-2998-4159-a8ef-ed30e7f34569">
+  <producedTypes>
+    <selectionType typeId="45e102eb-5299-4629-bdad-40379f997ab5" valueTypeId="a4766a4e-aff9-4b98-a463-56e098bf323c"/>
+    <listType typeId="5d75d04a-b10d-48e2-858f-cb99b9721dd3" valueTypeId="be71fdef-866c-4d06-b6ea-b78a0d7f52d2"/>
+    <managerType typeId="691866d2-d0be-41c2-a745-6380a4bfdd3c" valueTypeId="fbb149e3-02b0-4115-858a-73d37391ea77"/>
+    <recordSetType typeId="f1970da7-93d6-4f3a-a713-b8082ec2cef1" valueTypeId="01bdcf25-c165-4a3d-8138-b729bb9d2641"/>
+    <recordKeyType typeId="88fd9da5-3401-4f87-9a1b-c62ddec48861" valueTypeId="d1181869-92f0-4903-b4e4-ce73dfb968a3"/>
+    <recordType typeId="047f43c1-8b58-45ab-acc8-ce7d25a819e6" valueTypeId="3c508008-e80f-4c78-96a2-27c60cd0e3f8"/>
+    <recordManagerType typeId="1ffd5684-22ea-44ee-be1f-20de675b1fe6" valueTypeId="076c7b6e-40fc-43d3-9be1-d0360540b3be"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8ba1b1be-557e-4ccc-bb26-9176cfc72a75">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="78dd7c62-e6b6-4e0b-a520-89c8b800cbe4">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d91acc80-c1cf-44d1-aa70-11339993b792">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

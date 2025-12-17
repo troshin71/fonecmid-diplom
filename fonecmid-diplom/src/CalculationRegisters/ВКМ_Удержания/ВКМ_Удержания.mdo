@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f87b42b6-3136-4c48-80cd-0a0a7530a2b4">
+  <producedTypes>
+    <selectionType typeId="70f387ba-29f0-4b13-9d0a-847f12bcb551" valueTypeId="96648931-9b5b-4a47-aadc-62da716f06d8"/>
+    <listType typeId="fd1c0b36-03ea-47cc-a790-6fca0dbdead9" valueTypeId="4ec961c5-c198-451c-83a0-1dee2a598bff"/>
+    <managerType typeId="104e1bfb-7f03-4307-8c4f-1446252da5a3" valueTypeId="aa69c54a-3dc5-424c-b4b0-9c7511ff85ce"/>
+    <recordSetType typeId="5d79ac92-797d-401a-9403-47d8e67286e7" valueTypeId="95830837-c93f-4592-95cb-730955d556ec"/>
+    <recordKeyType typeId="9f2aa1f0-907d-4fba-af09-22f458b530fa" valueTypeId="7a6948a3-cb55-4e31-953f-7fa5508901bc"/>
+    <recordType typeId="2bf22fca-0c86-4a57-899a-5767dfedfd00" valueTypeId="5941814f-398c-4e96-9441-b54a5a3b3290"/>
+    <recalcsType typeId="d0773916-97e0-40e2-917b-57584e95bfd5" valueTypeId="82d874bb-6a8f-4cd1-8263-d9a30ee99dea"/>
+  </producedTypes>
+  <name>ВКМ_Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e2992674-4418-4f66-ae48-016ea52a5d3c">
+    <name>ВКМ_Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+</mdclass:CalculationRegister>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6d6535d-6380-4eed-9c93-ca7a03756d0d">
+  <producedTypes>
+    <selectionType typeId="baab2d70-2764-442f-98ba-b15034a8d740" valueTypeId="b737206b-72d1-4866-b171-39ebc23cf61c"/>
+    <listType typeId="84947c0e-0b45-4645-a4e4-1704aadfdd68" valueTypeId="d09e7b24-33c5-4be6-b095-ac41df64025e"/>
+    <managerType typeId="0bb2ff7d-aa87-4847-8c98-d6a42b6cf8a8" valueTypeId="e555085d-278b-4f46-8147-f32aa00276d0"/>
+    <recordSetType typeId="b7b98dc9-2cb5-4407-817f-3adeb6f8dcea" valueTypeId="12a8068e-9bc7-4fed-a263-0eb16f64a072"/>
+    <recordKeyType typeId="76e442fb-d728-48e7-9cf5-47a85a6bebe0" valueTypeId="60847003-548f-4cb5-a79e-8db615a8359d"/>
+    <recordType typeId="f9189a20-4455-4eb0-beb7-cd21a04bc0c7" valueTypeId="3c30a353-1e58-4d2c-b296-5ec05efbe9ff"/>
+    <recalcsType typeId="fff0cf0f-0b8d-4b2b-8182-680d1fe1184d" valueTypeId="99d00e7d-6562-42fa-aa89-ed6c0f37c3d0"/>
+  </producedTypes>
+  <name>ВКМ_ДополнительныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a5da9c8c-babc-4ef4-a25f-0c27a0d8d1d9">
+    <name>ВКМ_Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+</mdclass:CalculationRegister>
