@@ -32,7 +32,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
   <predefined>
     <items id="dc9b000a-be9a-4d7f-9d67-f39cd1d5f7ab">
       <name>Процент</name>
