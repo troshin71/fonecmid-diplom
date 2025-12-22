@@ -44,7 +44,7 @@
     <name>ВКМ_ОтработаноЧасов</name>
     <synonym>
       <key>ru</key>
-      <value>Отработано дней</value>
+      <value>Отработано часов</value>
     </synonym>
     <type>
       <types>Number</types>
