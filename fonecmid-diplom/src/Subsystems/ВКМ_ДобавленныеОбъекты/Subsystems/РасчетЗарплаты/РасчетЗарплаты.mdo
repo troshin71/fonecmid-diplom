@@ -22,5 +22,7 @@
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>AccumulationRegister.ВКМ_ПланируемыеОтпуска</content>
+  <content>Report.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходОтпусков</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
