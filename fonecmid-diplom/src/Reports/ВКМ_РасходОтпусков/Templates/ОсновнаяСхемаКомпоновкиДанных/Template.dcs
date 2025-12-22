@@ -14,20 +14,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ДнейПоПлану</dataPath>
-			<field>ДнейПоПлану</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ДнейПоФакту</dataPath>
-			<field>ДнейПоФакту</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дней по факту</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ДатаНачала</dataPath>
 			<field>ДатаНачала</field>
 		</field>
@@ -35,11 +21,25 @@
 			<dataPath>ДатаОкончания</dataPath>
 			<field>ДатаОкончания</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПлановыеДни</dataPath>
+			<field>ПлановыеДни</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактическиеДни</dataPath>
+			<field>ФактическиеДни</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фактические дни</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	План.Сотрудник КАК Сотрудник,
-	СУММА(План.КоличествоДнейОборот) КАК ДнейПоПлану,
-	СУММА(ЕСТЬNULL(Факт.ВКМ_ОтработаноДней, 0)) КАК ДнейПоФакту
+	СУММА(План.КоличествоДнейОборот) КАК ПлановыеДни,
+	СУММА(ЕСТЬNULL(Факт.ВКМ_ОтработаноДней, 0)) КАК ФактическиеДни
 ИЗ
 	РегистрНакопления.ВКМ_ПланируемыеОтпуска.Обороты(,,,) КАК План
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрРасчета.ВКМ_ОсновныеНачисления КАК Факт
@@ -49,14 +49,6 @@
 СГРУППИРОВАТЬ ПО
 	План.Сотрудник</query>
 	</dataSet>
-	<totalField>
-		<dataPath>ДнейПоПлану</dataPath>
-		<expression>Сумма(ДнейПоПлану)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДнейПоФакту</dataPath>
-		<expression>Сумма(ДнейПоФакту)</expression>
-	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
@@ -138,6 +130,15 @@
 					<dcsset:field>ДнейПоФакту</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>00cc89f8-85be-4f53-b2b0-0d39ab1b5e8a</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
