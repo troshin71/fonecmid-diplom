@@ -43,7 +43,6 @@
       <code xsi:type="core:StringValue">
         <value>Отпуск</value>
       </code>
-      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</displaced>
       <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</base>
     </items>
     <items id="d3892280-894f-4392-8d39-f5adbd81f8b5">
