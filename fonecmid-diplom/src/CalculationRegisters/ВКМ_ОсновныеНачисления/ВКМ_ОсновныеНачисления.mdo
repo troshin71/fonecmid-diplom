@@ -41,7 +41,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="508e35f4-6a51-4550-a34a-5b0272e6c0b8">
-    <name>ВКМ_ОтработаноДней</name>
+    <name>ВКМ_ОтработаноЧасов</name>
     <synonym>
       <key>ru</key>
       <value>Отработано дней</value>
