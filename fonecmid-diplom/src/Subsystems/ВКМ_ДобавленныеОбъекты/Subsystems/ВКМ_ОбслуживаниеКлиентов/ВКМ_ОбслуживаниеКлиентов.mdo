@@ -12,6 +12,5 @@
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
-  <content>Report.ВКМ_ВыполненныеКлиентуРаботы</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
