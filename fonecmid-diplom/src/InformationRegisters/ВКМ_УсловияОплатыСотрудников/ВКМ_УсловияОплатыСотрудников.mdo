@@ -56,10 +56,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="9af01d1e-d9e4-4534-b75f-f0604dda5836">
-    <name>Сотрудник</name>
+    <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Сотрудник</value>
+      <value>ВКМ сотрудник</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>

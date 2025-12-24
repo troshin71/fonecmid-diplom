@@ -18,10 +18,10 @@
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="8ba1b1be-557e-4ccc-bb26-9176cfc72a75">
-    <name>Значение</name>
+    <name>ВКМ_Значение</name>
     <synonym>
       <key>ru</key>
-      <value>Значение</value>
+      <value>ВКМ значение</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -37,10 +37,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="78dd7c62-e6b6-4e0b-a520-89c8b800cbe4">
-    <name>График</name>
+    <name>ВКМ_График</name>
     <synonym>
       <key>ru</key>
-      <value>График</value>
+      <value>ВКМ график</value>
     </synonym>
     <type>
       <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
@@ -53,10 +53,10 @@
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="d91acc80-c1cf-44d1-aa70-11339993b792">
-    <name>Дата</name>
+    <name>ВКМ_Дата</name>
     <synonym>
       <key>ru</key>
-      <value>Дата</value>
+      <value>ВКМ дата</value>
     </synonym>
     <type>
       <types>Date</types>

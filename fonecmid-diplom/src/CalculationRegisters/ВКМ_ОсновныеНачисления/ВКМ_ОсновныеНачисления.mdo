@@ -19,8 +19,8 @@
   <actionPeriod>true</actionPeriod>
   <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
-  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.Значение</scheduleValue>
-  <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.Дата</scheduleDate>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.ВКМ_Значение</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.ВКМ_Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="166861d8-58f5-4abd-9d20-eee41cce699d">
@@ -75,10 +75,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="2578cb4f-af1d-4056-ad92-a81085a3e563">
-    <name>Сотрудник</name>
+    <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Сотрудник</value>
+      <value>ВКМ сотрудник</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>

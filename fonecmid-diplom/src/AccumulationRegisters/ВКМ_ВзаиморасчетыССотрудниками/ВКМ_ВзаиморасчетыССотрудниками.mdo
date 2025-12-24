@@ -17,10 +17,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="96a426f8-1e43-4e98-bc41-910249c2045b">
-    <name>Сумма</name>
+    <name>ВКМ_Сумма</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма</value>
+      <value>ВКМ сумма</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -34,10 +34,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="dc115dd0-14e5-4366-b397-346f8ef4f633">
-    <name>Сотрудник</name>
+    <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Сотрудник</value>
+      <value>ВКМ сотрудник</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>

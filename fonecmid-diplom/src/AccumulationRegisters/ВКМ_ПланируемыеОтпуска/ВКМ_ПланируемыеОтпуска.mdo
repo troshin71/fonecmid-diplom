@@ -18,10 +18,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="49700e82-1993-4644-8adb-a9452bdb820f">
-    <name>КоличествоДней</name>
+    <name>ВКМ_КоличествоДней</name>
     <synonym>
       <key>ru</key>
-      <value>Количество дней</value>
+      <value>ВКМ количество дней</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -34,10 +34,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="895b70d2-2b02-4b8d-a877-5c31a5cce906">
-    <name>Сотрудник</name>
+    <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Сотрудник</value>
+      <value>ВКМ сотрудник</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
@@ -48,10 +48,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="9fd066d3-5ed1-4e9d-a332-34007432e4cb">
-    <name>ДатаНачала</name>
+    <name>ВКМ_ДатаНачала</name>
     <synonym>
       <key>ru</key>
-      <value>Дата начала</value>
+      <value>ВКМ дата начала</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -65,10 +65,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="862703f7-eba2-4a10-987c-ef8ca5cce974">
-    <name>ДатаОкончания</name>
+    <name>ВКМ_ДатаОкончания</name>
     <synonym>
       <key>ru</key>
-      <value>Дата окончания</value>
+      <value>ВКМ дата окончания</value>
     </synonym>
     <type>
       <types>Date</types>
