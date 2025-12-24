@@ -8,6 +8,6 @@
   <source>
     <types>DocumentObject.ВКМ_ОбслуживаниеКлиента</types>
   </source>
-  <event>OnWrite</event>
-  <handler>CommonModule.ВКМ_ОбслуживаниеКлиентовСервер.ВКМ_ЗаписьДокументаОбслуживанияПриЗаписи</handler>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВКМ_ОбслуживаниеКлиентовСервер.ВКМ_ЗаписьДокументаОбслуживанияПередЗаписью</handler>
 </mdclass:EventSubscription>
