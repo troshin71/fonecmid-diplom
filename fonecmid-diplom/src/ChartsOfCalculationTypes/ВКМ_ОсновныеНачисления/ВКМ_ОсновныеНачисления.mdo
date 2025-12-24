@@ -52,5 +52,12 @@
       </code>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
     </items>
+    <items id="3e804e6c-7c3f-48e7-ae6b-1360f5af6be7">
+      <name>Процент</name>
+      <description>Процент</description>
+      <code xsi:type="core:StringValue">
+        <value>Процент</value>
+      </code>
+    </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
