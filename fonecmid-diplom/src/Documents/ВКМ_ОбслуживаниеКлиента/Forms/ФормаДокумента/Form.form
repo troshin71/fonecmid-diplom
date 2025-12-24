@@ -531,46 +531,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ВыполненныеРаботыВКМ_Номенклатура</name>
-      <id>56</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ВыполненныеРаботы.ВКМ_Номенклатура</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ВКМ_ВыполненныеРаботыВКМ_НоменклатураРасширеннаяПодсказка</name>
-        <id>58</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ВКМ_ВыполненныеРаботыВКМ_НоменклатураКонтекстноеМеню</name>
-        <id>57</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>ВКМ_ВыполненныеРаботыВКМ_ОписаниеРабот</name>
       <id>47</id>
       <visible>true</visible>
