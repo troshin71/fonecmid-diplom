@@ -40,5 +40,12 @@
         <value>Премия</value>
       </code>
     </items>
+    <items id="402679ad-ec29-4ff1-8cfa-df1b01cd4d97">
+      <name>Процент</name>
+      <description>Процент</description>
+      <code xsi:type="core:StringValue">
+        <value>Процент</value>
+      </code>
+    </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
