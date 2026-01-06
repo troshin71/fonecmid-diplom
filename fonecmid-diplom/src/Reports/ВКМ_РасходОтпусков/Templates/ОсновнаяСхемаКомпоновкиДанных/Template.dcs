@@ -14,14 +14,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ДатаНачала</dataPath>
-			<field>ДатаНачала</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ДатаОкончания</dataPath>
-			<field>ДатаОкончания</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ПлановыеДни</dataPath>
 			<field>ПлановыеДни</field>
 		</field>
@@ -35,19 +27,40 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВКМ_ДатаНачала</dataPath>
+			<field>ВКМ_ДатаНачала</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВКМ_ДатаОкончания</dataPath>
+			<field>ВКМ_ДатаОкончания</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	План.Сотрудник КАК Сотрудник,
-	СУММА(План.КоличествоДнейОборот) КАК ПлановыеДни,
+	План.ВКМ_Сотрудник КАК Сотрудник,
+	СУММА(План.ВКМ_КоличествоДнейОборот) КАК ПлановыеДни,
 	СУММА(ЕСТЬNULL(Факт.ВКМ_ОтработаноДней, 0)) КАК ФактическиеДни
 ИЗ
 	РегистрНакопления.ВКМ_ПланируемыеОтпуска.Обороты(,,,) КАК План
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрРасчета.ВКМ_ОсновныеНачисления КАК Факт
-		ПО План.Сотрудник = Факт.Сотрудник
+		ПО План.ВКМ_Сотрудник = Факт.ВКМ_Сотрудник
 		И Факт.ВидРасчета = &amp;ВидРасчетаОтпуск
 		И Факт.ПериодРегистрации МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
 СГРУППИРОВАТЬ ПО
-	План.Сотрудник</query>
+	План.ВКМ_Сотрудник</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ПлановыеДни</dataPath>
