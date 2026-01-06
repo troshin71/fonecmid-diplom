@@ -1329,6 +1329,7 @@
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
+  <dataProcessors>DataProcessor.ВКМ_КалендарьСпециалистов</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
