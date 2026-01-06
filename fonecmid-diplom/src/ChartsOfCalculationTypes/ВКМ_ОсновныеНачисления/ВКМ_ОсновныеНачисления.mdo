@@ -43,14 +43,14 @@
       <code xsi:type="core:StringValue">
         <value>Оклад</value>
       </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
     </items>
-    <items id="026344a2-59e3-401e-b595-c1d3fcb811eb">
+    <items id="a80ba975-b1ae-454b-8eff-85895b72f499">
       <name>Отпуск</name>
       <description>Отпуск</description>
       <code xsi:type="core:StringValue">
         <value>Отпуск</value>
       </code>
-      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</displaced>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
