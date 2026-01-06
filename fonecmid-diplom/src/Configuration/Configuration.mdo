@@ -1053,6 +1053,13 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ОбслуживаниеКлиентов</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РасчетИВыплатаЗарплаты</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_НастройкаНачисленийИЗарплаты</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Телеграм</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Справочники</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ГрафикиОтпусков</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Отпуска</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
