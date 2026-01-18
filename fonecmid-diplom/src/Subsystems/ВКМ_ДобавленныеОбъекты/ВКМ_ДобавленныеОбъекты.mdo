@@ -41,4 +41,5 @@
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
+  <content>AccumulationRegister.ВКМ_ФактическиеОтпуска</content>
 </mdclass:Subsystem>

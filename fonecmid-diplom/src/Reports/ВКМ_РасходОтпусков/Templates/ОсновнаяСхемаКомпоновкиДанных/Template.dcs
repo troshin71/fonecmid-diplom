@@ -48,19 +48,28 @@
 			<dataPath>ВКМ_ДатаОкончания</dataPath>
 			<field>ВКМ_ДатаОкончания</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОстатокДней</dataPath>
+			<field>ОстатокДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток дней</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	План.ВКМ_Сотрудник КАК Сотрудник,
-	СУММА(План.ВКМ_КоличествоДнейОборот) КАК ПлановыеДни,
-	СУММА(ЕСТЬNULL(Факт.ВКМ_ОтработаноДней, 0)) КАК ФактическиеДни
+	ПланОбороты.ВКМ_Сотрудник КАК Сотрудник,
+	СУММА(ПланОбороты.ВКМ_КоличествоДнейОборот) КАК ПлановыеДни,
+	СУММА(ЕСТЬNULL(ФактОбороты.ВКМ_ДнейОборот, 0)) КАК ФактическиеДни,
+	СУММА(ПланОбороты.ВКМ_КоличествоДнейОборот - ЕСТЬNULL(ФактОбороты.ВКМ_ДнейОборот, 0)) КАК ОстатокДней
 ИЗ
-	РегистрНакопления.ВКМ_ПланируемыеОтпуска.Обороты(,,,) КАК План
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрРасчета.ВКМ_ОсновныеНачисления КАК Факт
-		ПО План.ВКМ_Сотрудник = Факт.ВКМ_Сотрудник
-		И Факт.ВидРасчета = &amp;ВидРасчетаОтпуск
-		И Факт.ПериодРегистрации МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	РегистрНакопления.ВКМ_ПланируемыеОтпуска.Обороты(&amp;НачалоПериода, &amp;КонецПериода,,) КАК ПланОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ВКМ_ФактическиеОтпуска.Обороты(&amp;НачалоПериода, &amp;КонецПериода,,) КАК ФактОбороты
+		ПО ПланОбороты.ВКМ_Сотрудник = ФактОбороты.ВКМ_Сотрудник
 СГРУППИРОВАТЬ ПО
-	План.ВКМ_Сотрудник</query>
+	ПланОбороты.ВКМ_Сотрудник</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ПлановыеДни</dataPath>
@@ -69,6 +78,10 @@
 	<totalField>
 		<dataPath>ФактическиеДни</dataPath>
 		<expression>Сумма(ФактическиеДни)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОстатокДней</dataPath>
+		<expression>Сумма(ОстатокДней)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -105,22 +118,6 @@
 		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
-		<name>ВидРасчетаОтпуск</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Вид расчета отпуск</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</v8:Type>
-		</valueType>
-		<useRestriction>true</useRestriction>
-		<availableValue>
-			<value xsi:type="dcscor:DesignTimeValue">ПланВидовРасчета.ВКМ_ОсновныеНачисления.Отпуск</value>
-		</availableValue>
-	</parameter>
-	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
@@ -149,6 +146,9 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ФактическиеДни</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОстатокДней</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>

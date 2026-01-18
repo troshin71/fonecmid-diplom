@@ -10,6 +10,5 @@
   </synonym>
   <type>
     <types>CatalogRef.ПапкиФайлов</types>
-    <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
   </type>
 </mdclass:DefinedType>
