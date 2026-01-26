@@ -37,7 +37,7 @@
       <wrap>true</wrap>
       <editFormat>
         <key>ru</key>
-        <value>ДФ='''ММММ гггг'''</value>
+        <value>ДФ=dd.MM.yyyy</value>
       </editFormat>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
