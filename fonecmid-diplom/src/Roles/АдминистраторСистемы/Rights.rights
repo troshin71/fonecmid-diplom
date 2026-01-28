@@ -4905,6 +4905,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.ВКМ_ВзаиморасчетыССотрудниками</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ТаблицыРасширенийСОграничениемДоступа</name>
 		<right>
 			<name>Get</name>
@@ -6309,6 +6320,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.ВКМ_РасходОтпусков</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ПодготовкаНовогоПисьма</name>
 		<right>
 			<name>View</name>
@@ -7255,6 +7277,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ВКМ_ВыработкаСпециалистов</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -8257,6 +8290,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ВКМ_АнализВыставленныхАктов</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
