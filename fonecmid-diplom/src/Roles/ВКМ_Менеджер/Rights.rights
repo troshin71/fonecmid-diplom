@@ -4,13 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Город</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Контрагенты</name>
 		<right>
 			<name>Read</name>
@@ -21,71 +14,76 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Predefined</name>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Ref</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.IsFolder</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Owner</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Parent</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Description</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>ReadDataHistory</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Code</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -99,85 +97,76 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.ПриобретеннаяНоменклатура.Attribute.Номенклатура</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация</name>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.ДоменноеИмяСервера</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Страна</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Значение</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Тип</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефонаБезКодов</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>ReadDataHistory</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.АдресЭП</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.ПриобретеннаяНоменклатура</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -185,27 +174,6 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Представление</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.ИНН</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефона</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -319,27 +287,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.Attribute.КПП</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.ЗначенияПолей</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Регион</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Configuration.УправлениеITФирмой</name>
 		<right>
 			<name>ThinClient</name>
@@ -379,13 +326,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</name>
 		<right>
 			<name>Read</name>
@@ -396,7 +336,75 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -424,24 +432,17 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Вид</name>
+		<name>Subsystem.ПокупкиИПродажи.Subsystem.Справочники</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</name>
+		<name>Subsystem.ПокупкиИПродажи</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.TabularSection.ДополнительныеРеквизиты</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>
