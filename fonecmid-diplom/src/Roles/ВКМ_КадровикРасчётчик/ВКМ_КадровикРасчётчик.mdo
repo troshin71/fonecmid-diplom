@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4880b161-f8ea-45b4-a6e1-797125e9c01f">
-  <name>ВКМКадровикРасчётчик</name>
+  <name>ВКМ_КадровикРасчётчик</name>
   <synonym>
     <key>ru</key>
     <value>ВКМ Кадровик расчётчик</value>

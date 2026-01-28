@@ -627,7 +627,7 @@
   <roles>Role.ВКМ_Специалист</roles>
   <roles>Role.ВКМ_Менеджер</roles>
   <roles>Role.ВКМ_Бухгалтер</roles>
-  <roles>Role.ВКМКадровикРасчётчик</roles>
+  <roles>Role.ВКМ_КадровикРасчётчик</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
